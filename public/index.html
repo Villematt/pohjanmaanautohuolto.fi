@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pohjanmaan Autohuolto Oy – asiantunteva Volvo-huolto ja monimerkkikorjaamo Ylivieskassa." />
+    <title>Pohjanmaan Autohuolto | Autohuolto Ylivieskassa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="overrides.css" />
+    <link rel="stylesheet" href="modal.css" />
+  </head>
+  <body>
+    <div class="announcement"><span>Palvelemme ma–pe klo 08.00–17.00</span><a href="tel:+358401831024">040 183 1024</a></div>
+    <header class="site-header">
+      <a class="brand" href="#alku" aria-label="Pohjanmaan Autohuolto, etusivu"><span class="brand-mark">PA</span><span>Pohjanmaan<br /><strong>Autohuolto</strong></span></a>
+      <button class="menu-toggle" aria-label="Avaa valikko" aria-expanded="false"><span></span><span></span></button>
+      <nav class="main-nav" aria-label="Päävalikko">
+        <a href="#palvelut">Palvelut</a><a href="#hinnasto">Hinnasto</a><a href="#osaaminen">Erityisosaaminen</a><a href="#yhteystiedot">Yhteystiedot</a>
+      </nav>
+      <a class="button button-dark header-cta" href="#yhteystiedot">Varaa aika <span>↗</span></a>
+    </header>
+
+    <main id="alku">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">AUTOKORJAAMO · YLIVIESKA</p>
+          <h1>Huoltoa.<br /><em>Varmasti.</em></h1>
+          <p class="hero-lead">Volvo-osaamista ja luotettavaa huoltoa kaikille automerkeille Ylivieskassa.</p>
+          <div class="hero-actions"><button class="button button-lime" type="button" data-booking-open>Varaa aika <span>↗</span></button><a class="text-link" href="tel:+358401831024">Soita 040 183 1024 <span>→</span></a></div>
+        </div>
+        <div class="hero-visual" aria-label="Tummansininen Volvo-henkinen auto korjaamolla">
+          <img src="volvo-workshop.png" alt="Tummansininen Volvo-henkinen auto korjaamolla" />
+          <div class="hero-card"><span class="card-icon">✓</span><div><strong>Volvo-osaamista</strong><small>Myös kaikki muut merkit</small></div></div>
+        </div>
+      </section>
+
+      <section class="quick-booking" aria-label="Varaa huoltoaika"><div><p class="eyebrow">VARAA HUOLTOAIKA</p><h2>Tarvitsetko huoltoa?</h2><p>Soita tai jätä soittopyyntö – palaamme asiaan pian.</p></div><div class="quick-form"><button class="button button-lime" type="button" data-booking-open>Varaa aika huoltoon <span>↗</span></button></div><a class="quick-phone" href="tel:+358401831024"><small>TAI SOITA SUORAAN</small>040 183 1024</a></section>
+      <section class="trust-strip" aria-label="Yrityksen vahvuudet"><div><b>01</b><span>Volvo-osaamista</span></div><div><b>02</b><span>Kaikki automerkit</span></div><div><b>03</b><span>1 v työtakuu erikoiskorjauksiin</span></div></section>
+
+      <section class="section intro" id="palvelut">
+        <div class="section-heading"><p class="eyebrow">PALVELUMME</p><h2>Kaikki tarpeellinen<br />saman katon alta.</h2></div>
+        <p class="intro-copy">Huollamme ja korjaamme autosi Ylivieskassa – lähellä keskustaa, paloaseman vieressä.</p>
+      </section>
+      <section class="services section">
+        <article class="service-feature"><span class="service-number">01</span><p class="eyebrow">AUTON HUOLLOT &amp; KORJAUKSET</p><h3>Kaikki olennaiset työt.</h3><p>Huollot, jakohihnat, korjaukset, ilmastointi, renkaat ja sähköviat.</p><a class="text-link" href="#yhteystiedot">Kysy huollosta <span>→</span></a></article>
+        <div class="service-list">
+          <details open><summary><span>Määräaikaishuollot</span><b>+</b></summary><p>Tarkistamme ja vaihdamme huolto-ohjelmien mukaisesti öljyt, suodattimet, hihnat, tulpat ja muut kuluvat osat. Huoltomme säilyttävät tehdastakuut.</p></details>
+          <details><summary><span>Jakohihnan vaihdot</span><b>+</b></summary><p>Auton jakohihna tulee vaihtaa tavallisesti 60–240 tuhannen kilometrin tai 4–10 vuoden välein. Rikkoutuminen voi johtaa moottorivaurioon.</p></details>
+          <details><summary><span>Moottori- ja vaihteistokorjaukset</span><b>+</b></summary><p>Teemme myös isompitöiset moottori- ja vaihteistokorjaukset useiden vuosien kokemuksella.</p></details>
+          <details><summary><span>Sähkölaite- ja ilmastointikorjaukset</span><b>+</b></summary><p>Etsimme sähkövikoja monipuolisella vianlukulaitteistolla sekä huollamme ja korjaamme ilmastointilaitteet.</p></details>
+        </div>
+      </section>
+
+      <section class="special section" id="osaaminen"><div class="special-visual"><p>VOLVO<br /><span>+ kaikki<br />merkit</span></p><small>Asiantuntemusta, joka näkyy työn jäljessä.</small></div><div class="special-copy"><p class="eyebrow">ERITYISOSAAMINEN</p><h2>Elektroniikka kuntoon – eikä aina tarvitse ostaa uutta.</h2><p>Sähköisten laitteiden korjaus kannattaa: uuden osan hinta on usein moninkertainen huollon kustannuksiin verrattuna. Korjaamme myös työkoneiden mittaristoja ja ohjainlaitteita.</p><p>Mittaristo- ja ohjainlaitehuolloille annamme <strong>yhden vuoden työtakuun</strong> alkuperäisen korjatun vian osalta.</p><a class="text-link" href="#yhteystiedot">Kysy erikoiskorjauksesta <span>→</span></a></div></section>
+      <section class="devices section"><p class="eyebrow">LAITTEET, JOISTA ERITYISOSAAMISTA</p><div class="tag-cloud"><span>Mittaristoviat</span><span>LCD-näyttöjen pikseliviat</span><span>ABS-ohjainlaitteet</span><span>Bosch VP44 dieselohjainlaitteet</span><span>Moottorinohjauslaitteet</span><span>Volvo CEM -yksiköt</span></div><p class="device-note">Esimerkiksi Volvo, Citroën, Renault, Peugeot, Škoda, Mercedes-Benz, BMW, Saab, Audi, Opel, Ford, Valtra ja Cummins Diesel. Muut mittaristo- ja ohjainlaitehuollot arvioimme tapauskohtaisesti.</p></section>
+
+      <section class="pricing section" id="hinnasto"><div><p class="eyebrow">HINNASTO</p><h2>Selkeä hinnoittelu.<br />Ei arvailua.</h2><p>Huollossamme on usein muutaman päivän työjono, joten varaathan ajan hyvissä ajoin.</p></div><dl><div><dt>Tuntiveloitus</dt><dd>79 € <small>/ tunti</small></dd></div><div><dt>4-pyöräsuuntaus</dt><dd>75 € <small>ei sis. säätöpultteja</small></dd></div><div><dt>Ilmastointihuolto</dt><dd>50 € <small>+ R134a 50 €/kg</small></dd></div><div><dt>Vikamuistin luku ja tyhjäys</dt><dd>30 €</dd></div></dl></section>
+
+      <section class="contact section" id="yhteystiedot"><div class="contact-copy"><p class="eyebrow">YHTEYSTIEDOT</p><h2>Ota yhteyttä.</h2><p>Vastaamme huoltoa ja korjausta koskeviin kysymyksiin nopeasti.</p></div><div class="contact-links"><a href="tel:+358401831024"><small>PUHELIN</small>040 183 1024</a><a href="mailto:info@pohjanmaan-autohuolto.fi"><small>SÄHKÖPOSTI</small>info@pohjanmaan-autohuolto.fi</a><a href="https://www.google.com/maps/search/?api=1&query=Nokitie+4,+84100+Ylivieska" target="_blank" rel="noopener"><small>OSOITE</small>Nokitie 4, 84100 Ylivieska <span>↗</span></a></div></section>
+      <section class="team section"><p class="eyebrow">HENKILÖKUNTA</p><div class="team-grid"><article><span>MI</span><h3>Mika Immonen</h3><p>Yrittäjä</p><a href="mailto:mika.immonen@pohjanmaan-autohuolto.fi">mika.immonen@pohjanmaan-autohuolto.fi</a></article><article><span>TH</span><h3>Toni Hyvärinen</h3><p>Mittaristot ja ohjainlaitteet</p><a href="mailto:toni.hyvarinen@pohjanmaan-autohuolto.fi">toni.hyvarinen@pohjanmaan-autohuolto.fi</a></article><article><span>TS</span><h3>Teemu Seppälä</h3><p>Ajoneuvomekaanikko</p></article><article><span>TS</span><h3>Tommi Savela</h3><p>Ajoneuvomekaanikko</p></article></div></section>
+    </main>
+    <footer><div class="brand"><span class="brand-mark">PA</span><span>Pohjanmaan<br /><strong>Autohuolto</strong></span></div><p>Luotettavaa autohuoltoa Ylivieskassa.</p><div><a href="https://www.facebook.com/PohjanmaanAutohuolto/" target="_blank" rel="noopener">Facebook ↗</a><span>© <span id="year"></span> Pohjanmaan Autohuolto Oy</span></div></footer>
+    <dialog class="booking-modal" id="booking-modal" aria-labelledby="booking-title"><div class="modal-top"><p class="eyebrow">VARAA HUOLTOAIKA</p><button class="modal-close" type="button" aria-label="Sulje varauslomake">×</button></div><h2 id="booking-title">Kerro autostasi.</h2><p class="modal-lead">Täytä tiedot ja kuvaile huollon tarve. Otamme yhteyttä mahdollisimman pian.</p><p class="modal-phone">Voit myös soittaa: <a href="tel:+358401831024">040 183 1024</a></p><form class="booking-form" id="booking-form"><fieldset><legend>Autosi</legend><div class="form-grid"><label>Merkki<input name="make" autocomplete="off" /></label><label>Malli<input name="model" autocomplete="off" /></label><label>Vuosimalli<input name="year" inputmode="numeric" /></label><label>Polttoaine<select name="fuel"><option value="">Valitse</option><option>Bensiini</option><option>Diesel</option><option>Hybridi</option><option>Sähkö</option></select></label><label>Rekisterinumero<input name="registration" autocapitalize="characters" /></label></div><label>Huollon tarve / vikakuvaus *<textarea name="details" rows="4" required placeholder="Esim. määräaikaishuolto, hälytysvalo tai muu huomio"></textarea></label></fieldset><fieldset><legend>Yhteyshenkilö</legend><div class="form-grid"><label>Nimi *<input name="name" autocomplete="name" required /></label><label>Puhelin *<input type="tel" name="phone" autocomplete="tel" required /></label><label class="form-wide">Sähköpostiosoite<input type="email" name="email" autocomplete="email" /></label></div></fieldset><button class="button button-lime" type="submit">Lähetä soittopyyntö <span>↗</span></button><p class="form-message" aria-live="polite"></p></form></dialog>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+.hero-visual > img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+.hero-visual::before { content:""; position:absolute; z-index:1; inset:0; background:linear-gradient(90deg,rgba(4,17,31,.16),transparent 72%); }
+.quick-booking { background:#0b2036; color:#fff; padding:32px max(5vw,24px); display:grid; grid-template-columns:1.1fr 1.3fr .7fr; gap:28px; align-items:center; }
+.quick-booking .eyebrow { color:var(--electric); margin-bottom:7px; }
+.quick-booking h2 { font-size:28px; letter-spacing:-.05em; line-height:1; margin:0; }
+.quick-booking > div > p:last-child { font-size:13px; color:#c1d3e3; margin:8px 0 0; }
+.quick-form { display:grid; grid-template-columns:1fr 1fr auto; gap:9px; align-items:center; }
+.quick-form input { height:47px; width:100%; background:#173651; border:1px solid #31526e; color:white; padding:0 14px; font:13px var(--sans); outline:none; }
+.quick-form input::placeholder { color:#b2c6d6; }
+.quick-form input:focus { border-color:var(--electric); }
+.quick-form .button { height:47px; white-space:nowrap; }
+.quick-form .form-message { grid-column:1/-1; color:#7acbff; margin:0; }
+.quick-phone { color:white; text-decoration:none; font-size:17px; font-weight:800; }
+.quick-phone small { display:block; color:var(--electric); font:10px var(--mono); margin-bottom:4px; }
+@media (max-width:900px) { .quick-booking { grid-template-columns:1fr; } .quick-phone { font-size:15px; } .quick-form { max-width:620px; } }
+@media (max-width:560px) { .quick-form { grid-template-columns:1fr; } .quick-form .button { width:100%; } }
