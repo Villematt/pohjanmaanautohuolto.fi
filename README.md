@@ -58,15 +58,17 @@ ja valitse `main`-haara. Käytä Worker-nimeä `pohjanmaanautohuolto`, joka vast
 | Root directory | Repositorion juuri |
 | NODE_VERSION-ympäristömuuttuja | `22` |
 
-Wrangler julkaisee `dist`-kansion staattisina tiedostoina. Erillistä Worker-
-JavaScript-käsittelijää ei tarvita.
+Wrangler julkaisee versionhallinnassa olevan `public`-kansion staattisina
+tiedostoina. Erillistä Worker-JavaScript-käsittelijää tai erillistä build-
+vaihetta ei tarvita Workers-julkaisussa. Tämä estää deploy-virheen, jossa
+`dist`-kansiota ei ole vielä luotu.
 
 Vaihtoehtoisesti voit julkaista Workersiin omalta koneeltasi:
 
 ```sh
 npm ci
 npx wrangler login
-npm run deploy
+npx wrangler deploy
 ```
 
 ## Tarkistus ennen julkaisua
