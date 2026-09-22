@@ -1,0 +1,19 @@
+{
+  "name": "pohjanmaan-autohuolto",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Pohjanmaan Autohuollon HTML-, CSS- ja JavaScript-sivusto",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "npm run build && wrangler dev",
+    "deploy": "npm run build && wrangler deploy",
+    "check": "node --check public/script.js && npm run build && wrangler deploy --dry-run"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "4.136.2"
+  }
+}
